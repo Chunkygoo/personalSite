@@ -5,9 +5,9 @@ import './static/css/main.scss'; // All of our styles
 
 window.process = {
   env: {
-      NODE_ENV: 'production'
-  }
-}
+    NODE_ENV: 'production',
+  },
+};
 
 const { PUBLIC_URL } = process.env;
 
