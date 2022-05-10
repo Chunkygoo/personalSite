@@ -57,7 +57,7 @@ const positions = [
     daterange: 'August 2019 - May 2022',
     points: [
       'Founded the table tennis club.',
-      'Schedul and conduct training sessions.',
+      'Schedule and conduct training sessions.',
       'Partook and won in tournaments.',
     ],
   },
