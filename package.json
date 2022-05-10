@@ -58,5 +58,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  {
+    "name": "calvins-personal-site",
+    "description": "Calvin's personal site",
+    "engines": {
+      "node": "14.x"
+    }
   }
 }
