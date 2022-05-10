@@ -3,6 +3,12 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
+window.process = {
+  env: {
+      NODE_ENV: 'production'
+  }
+}
+
 const { PUBLIC_URL } = process.env;
 
 // Every route - we lazy load so that each page can be chunked
