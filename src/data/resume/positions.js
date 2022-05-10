@@ -9,7 +9,7 @@ const positions = [
     ],
   },
   {
-    company: 'Hewlett-Packard Enterprise',
+    company: 'Hewlett-Packard Enterprise1',
     position: 'Software Engineering Intern',
     link: 'https://www.hpe.com/us/en/home.html',
     daterange: 'June 2021 - August 2021',
@@ -30,7 +30,7 @@ const positions = [
     ],
   },
   {
-    company: 'Hewlett-Packard Enterprise',
+    company: 'Hewlett-Packard Enterprise0',
     position: 'Electrical Engineering Intern',
     link: 'https://www.hpe.com/us/en/home.html',
     daterange: 'May 2020 - August 2020',
