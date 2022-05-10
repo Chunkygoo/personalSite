@@ -59,12 +59,8 @@
       "last 1 safari version"
     ]
   },
-  {
-    "name": "calvins-personal-site",
-    "description": "Calvin's personal site",
-    "engines": {
-      "node": "14.x",
-      "npm": "6.x"
-    }
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
   }
 }
