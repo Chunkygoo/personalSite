@@ -48,8 +48,6 @@ https://engr.source.colostate.edu/outstanding-grad-calvin-tai-walter-scott-jr-co
 # I like
 
 - Table tennis
-
-    <img src= 'http://localhost:3000/personalSite/images/tableTennis.jpg'  width="400"/>
 - Poker
 - Coding
 - Hawaii
