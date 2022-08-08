@@ -3,10 +3,8 @@ const positions = [
     company: 'Meta',
     position: 'Incoming software engineer',
     link: 'https://about.facebook.com/meta/',
-    daterange: 'Begins in August 2022',
-    points: [
-      'Impending.',
-    ],
+    daterange: 'August 2022 - Present',
+    points: ['Impending.'],
   },
   {
     company: 'Hewlett-Packard Enterprise1',

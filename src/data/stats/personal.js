@@ -33,7 +33,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'Fort Collins, CO',
+    value: 'Belmont, CA',
   },
 ];
 

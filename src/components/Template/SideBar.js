@@ -13,21 +13,32 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Calvin Tai</h2>
-        <p><a href="mailto:calvintai0402@gmail.com">calvintai0402@gmail.com</a></p>
+        <p>
+          <a href="mailto:calvintai0402@gmail.com">calvintai0402@gmail.com</a>
+        </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Calvin. I like building things.
-        I am a <a href="https://www.colostate.edu/">Colorado State University</a> graduate,
-        and the founder/ex-president of CSU&apos;s table tennis association. I will be joining
-        Meta (formerly facebook) as a software engineer in August 2022. Before that I was an intern
-        at <a href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise</a>.
+      <p>
+        Hi, I&apos;m Calvin. I like building interesting things. I am a software
+        engineer at Meta where we move fast and build things. I am also a
+        computer engineering and computer science graduate at{' '}
+        <a href="https://www.colostate.edu/">Colorado State University</a>, and
+        the founder/ex-president of CSU&apos;s table tennis association.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume') ? (
+            <Link to="/resume" className="button">
+              Learn More
+            </Link>
+          ) : (
+            <Link to="/about" className="button">
+              About Me
+            </Link>
+          )}
         </li>
       </ul>
     </section>
