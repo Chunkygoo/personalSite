@@ -24,6 +24,10 @@ const routes = [
     label: 'Contact',
     path: '/contact',
   },
+  {
+    label: 'Certificates',
+    path: '/certs',
+  },
 ];
 
 export default routes;

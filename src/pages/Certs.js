@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
-import ContactIcons from '../components/Contact/ContactIcons';
+import EmblaCarousel from '../components/Carousel/EmblaCarousel';
 
 const Contact = () => (
   <Main
@@ -13,17 +13,11 @@ const Contact = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading">
-            <Link to="/contact">Contact</Link>
+            <Link to="/certs">My Certificates</Link>
           </h2>
         </div>
       </header>
-      <div className="email-at">
-        <p>
-          Feel free to get in touch. You can email me at:
-          calvintai0402@gmail.com
-        </p>
-      </div>
-      <ContactIcons />
+      <EmblaCarousel />
     </article>
   </Main>
 );

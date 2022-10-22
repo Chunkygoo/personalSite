@@ -1,4 +1,3 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
@@ -7,11 +6,6 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 // to add other icons.
 
 const data = [
-  {
-    link: 'https://github.com/CalvinTai0402',
-    label: 'Github',
-    icon: faGithub,
-  },
   {
     link: 'https://www.facebook.com/calvin.tai.79656/',
     label: 'Facebook',

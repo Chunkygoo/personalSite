@@ -26,7 +26,7 @@ const data = [
     image: '/images/projects/tourApp.jpg',
     date: '2020-8-25',
     desc:
-      'features authentication, persistent data storage, real-time messaging, media upload and Spotify integration. ',
+      'Web application for trip planning, trip optimization, saving/uploading a trip that has a responsive UI in Java, Spark ReactJS following Agile methodology.',
   },
 ];
 
